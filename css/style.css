@@ -59,13 +59,19 @@ body {
 }
 
 .blue {
-    background-image: url(../img/blue_green.svg);
+    background-image: url(../img/blue.svg);
 }
 .grey {
     background-image: url(../img/grey.svg);
 }
 .red {
-    background-image: url(../img/red_purple.svg);
+    background-image: url(../img/red.svg);
+}
+.purple {
+    background-image: url(../img/purple.svg);
+}
+.green {
+    background-image: url(../img/green.svg);
 }
 
 img {

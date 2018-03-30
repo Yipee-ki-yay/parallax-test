@@ -8,4 +8,8 @@ $('.wrapper').scroll(function(){
 
   $('.red').css('background-position', '10px -' + st  + "px");
 
+  $('.purple').css('background-position', '10px -' + st / 2 + "px");
+
+  $('.green').css('background-position', '10px -' + st / 3 + "px");
+
 });
