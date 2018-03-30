@@ -1,0 +1,75 @@
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    /*position: relative;*/
+}
+
+
+.mainPage {
+    margin: 20px;
+    height: 4500px;
+    overflow: hidden;
+}
+
+.content-wrap {
+    /*position: absolute;*/
+    position: fixed;
+    left: 20px;
+    right: 20px;
+    top: 20px;
+    height: calc(100% - 40px);
+    overflow: hidden;
+}
+
+.wrapper {
+    position: absolute;
+    width: 100%;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+.parallax {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -10;    
+    background-size: 100%;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    
+
+    width: 100vw;
+    height: auto;
+    /*height: 100vh;*/
+    
+}
+
+.blue {
+    background-image: url(../img/blue_green.svg);
+}
+.grey {
+    background-image: url(../img/grey.svg);
+}
+.red {
+    background-image: url(../img/red_purple.svg);
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    /*opacity: 0;*/
+}
